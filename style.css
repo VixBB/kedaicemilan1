@@ -1,0 +1,193 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f7f5f0;
+  color: #333;
+}
+
+header {
+  text-align: center;
+  background-color: #d4c3a3;
+  padding: 20px;
+}
+
+header h1 {
+  font-family: 'Cursive', sans-serif;
+  margin: 0;
+  color: #603813;
+}
+
+header p {
+  font-size: 14px;
+}
+
+.welcome {
+  text-align: center;
+  margin-top: 5%;
+}
+
+.welcome h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+  font-weight: 900%;
+}
+
+.welcome button {
+  padding: 10px 20px;
+  background-color: #d4c3a3;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.welcome a {
+  padding: 10px 20px;
+  background-color: #d4c3a3;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+}
+
+.menu {
+  padding: 20px;
+  text-align: center;
+}
+
+.menu h2 {
+  margin-bottom: 20px;
+}
+
+.menu-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.menu-item {
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.menu-item img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.menu-item p {
+  margin: 10px 0;
+}
+
+.namaP {
+  font-weight: bold;
+  font-size: 20px;
+  color: #603813;
+}
+
+.harga {
+  font-weight: lighter;
+  color: #603813;
+  opacity: 60%;
+}
+
+.menu-item button {
+  padding: 5px 15px;
+  background-color: #d4c3a3;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+footer {
+  background-color: #ffffff;
+  padding: 20px;
+  color: #333;
+  text-align: center;
+}
+
+.team-project {
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+
+.team-project h2 {
+  margin-bottom: 10px;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 3%;
+}
+
+.team-icons {
+  display: flex;
+  flex-wrap: wrap;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  justify-content: center;
+  padding: 10px;
+}
+
+.team-icons .icon {
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: inline-block;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Menyesuaikan gambar agar proporsional */
+  border-radius: 50%; /* Pastikan gambar juga berbentuk lingkaran */
+}
+.contact-us h2 {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.contact-item img {
+  margin-right: 10px;
+  width: 20px;
+  height: 20px;
+}
+
+.contact-item p {
+  margin: 0;
+}
+
+.copyright {
+  margin-top: 20px;
+  font-size: 12px;
+  color: #555;
+}
+
+.about {
+  text-align: center;
+  max-width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+}
+
+.about p {
+  font-size: 1.2em;
+}
+
+.about h1 {
+  font-size: 1.5em;
+}
